@@ -18,6 +18,36 @@
   --price-after-titile-color: #757575;
   --price-button-color: #f5f4fa;
 }
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+.container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+}
+button {
+  cursor: pointer;
+}
+
 body {
   font-family: Roboto, sans-serif;
   color: #212121;
@@ -78,6 +108,10 @@ body {
 }
 /*---------------------HERO-------------------------*/
 .hero-button {
+  display: inline-block;
+  padding: 10px 32px 10px 32px;
+  min-width: 200px;
+  border-radius: 4px;
   font-family: inherit;
   font-size: 16px;
   line-height: 1.87;
@@ -87,6 +121,7 @@ body {
   color: var(--main-button-color);
 }
 .hero-title {
+  margin-bottom: 30px;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -97,8 +132,13 @@ body {
 }
 .hero {
   background-color: #2f303a;
+  margin-bottom: 94px;
+  text-align: center;
 }
 /*---------------------ABOUT-------------------------*/
+.about {
+  margin-bottom: 94px;
+}
 .footer-logo-left {
   font-family: Raleway;
   font-style: normal;
@@ -109,17 +149,8 @@ body {
 
   color: var(--accent-color);
 }
-.footer-logo-right {
-  font-family: Raleway;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 26px;
-  line-height: 1.19;
-  letter-spacing: 0.03em;
-
-  color: #ffffff;
-}
 .about-titil {
+  margin-bottom: 10px;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14px;
@@ -137,7 +168,11 @@ body {
   color: var(--second-text-color);
 }
 /*---------------------PRICES-------------------------*/
+.prices {
+  margin-bottom: 94px;
+}
 .prices-titil {
+  margin-bottom: 50px;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
@@ -146,7 +181,11 @@ body {
   color: var(--main-tittle-color);
 }
 /*---------------------COMMANDS-------------------------*/
+.command {
+  background: #f5f4fa;
+}
 .command-titel {
+  margin-bottom: 50px;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
@@ -155,6 +194,7 @@ body {
   color: var(--main-tittle-color);
 }
 .command-item-titel {
+  margin-bottom: 10px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
@@ -170,7 +210,22 @@ body {
 
   color: var(--second-text-color);
 }
+.command-picture {
+  margin-bottom: 30px;
+}
 /*---------------------footer-------------------------*/
+.footer-logo-right {
+  display: inline-block;
+  margin-bottom: 20px;
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+
+  color: #ffffff;
+}
 .footer-contacts-address {
   font-weight: 400;
   font-style: normal;
