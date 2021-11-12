@@ -23,7 +23,7 @@
   <body>
     <!--Шапка сайта-->
     <header class="header">
-      <div class="container">
+      <div class="container header-container">
         <nav class="header-navigation">
           <a class="link header-logo-left" href="./index.html"
             >Web<span class="header-logo-right">Studio</span></a
@@ -39,13 +39,13 @@
           </ul>
         </nav>
 
-        <ul class="list">
-          <li>
+        <ul class="list list-container">
+          <li class="header-link-item">
             <a class="link header-address-link" href="mailto:info@devstudio.com">
               info@devstudio.com</a
             >
           </li>
-          <li>
+          <li class="header-link-item">
             <a class="link header-address-link" href="tel:+380961111111"> +38 096 111 11 11</a>
           </li>
         </ul>
@@ -97,7 +97,12 @@
           <h2 class="prices-titil">Чем мы занимаемся</h2>
           <ul class="list prices-list">
             <li class="prices-picture">
-              <img src="./images/box1.jpg" alt="Планшет с клавиатурой на столе" width="370" />
+              <img
+                src="./images/box1.jpg"
+                alt="Планшет с клавиатурой на столе"
+                width="370"
+                height="294"
+              />
             </li>
             <li class="prices-picture">
               <img src="./images/box2.jpg" alt="Cмартфон в руке" width="370" />
@@ -158,7 +163,7 @@
         >
         <address class="footer-contacts">
           <p class="footer-contacts-address">г. Киев, пр-т Леси Украинки, 26</p>
-          <ul class="link-footer-list contacts-list">
+          <ul class="link-footer-list">
             <li class="list footer-contacts-item">
               <a class="link contacts-item-addres" href="mailto:info@devstudio.com">
                 info@devstudio.com</a
